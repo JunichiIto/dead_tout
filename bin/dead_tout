@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'dead_tout'
+if ARGV[0]
+  DeadTout.exec(ARGV[0].to_i)
+else
+  DeadTout.exec
+end
